@@ -94,10 +94,23 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+html {
+  font-size: 1em;
+}
 
+h1 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 3em;
+  text-align: center;
+}
 
+p.hearts{
+  text-align: left;
+}
 
-
+p.time{
+  text-align: right;
+}
 
 
 
