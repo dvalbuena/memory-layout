@@ -99,11 +99,37 @@ html {
   font-size: 1em;
 }
 
+hgroup.new-game {
+  text-align: center;
+  border: 1px solid blue;
+}
 
+h1 {
+  font-family: 'Orbitron', sans-serif;
+}
 
+h2 {
+  text-transform: uppercase;
+}
 
+ul.choose-level {
+  margin: 0%;
+  border: 1px solid red;
+  padding-left: 0%;
+  font-family: arial;
+  text-transform: uppercase;
+}
 
+li {
+  list-style-type: none;
+  border: 1px solid green;
+  margin: 1% 40% 0% 40%;
+  text-align: center;
+}
 
+a {
+  text-decoration: none;
+}
 
 
 
