@@ -136,7 +136,13 @@ a {
   color: white;
 }
 
+a:hover {
+  color: #348b9e;
+}
+
+
 li:hover{
+  color: #348b9e;
   background-color: white;
 }
 
