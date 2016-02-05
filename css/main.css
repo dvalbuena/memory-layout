@@ -106,7 +106,7 @@ header {
   margin-left: 5%;
 }
 
-h1 {
+h1 { /*memory game title*/
   font-family: 'Orbitron', sans-serif;
   font-size: 3em;
   text-align: center;

@@ -149,22 +149,32 @@ li:hover{
   background-color: white;
 }
 
-li.easy{
+li.slideUp{
   border: 2px solid white;
   width: 100px;
   transform: skewY(-15deg);
 
 }
 
-li.hard{
+li.slideDown{
   border: 2px solid white;
   width: 100px;
   transform: skewY(-15deg);
 
 }
 
+#easy{
+	background-color: #fe5652;
+
+	visibility: hidden;
+}
 
 
+#hard{
+	background-color: #fe5652;
+
+	visibility: hidden;
+}
 
 
 
