@@ -164,10 +164,10 @@ input:checked +.card {
   background: #1d9d74;
 }
 
-input:(not):checked +.card {
+/*input:(not):checked +.card {
   -webkit-transform: rotateY(180deg);
   background: white;
-}
+}*/
 
 label{
   text-align: center;
