@@ -94,9 +94,12 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-html {
+html { /*entire page*/
   font-size: 1em;
+  background-color: gray;
 }
+
+/***************** HEADER **********************/
 
 h1 {
   font-family: 'Orbitron', sans-serif;
@@ -104,16 +107,41 @@ h1 {
   text-align: center;
 }
 
-p.hearts{
+p.hearts{ /*hearts on the left side*/
   text-align: left;
 }
 
-p.time{
+p.time{ /*timer on the right side*/
   text-align: right;
 }
 
+/************** ACTUAL GAME BELOW *************/
 
+ul.row-one { /* container for first row of boxes*/
+  /*width: 100%;*/
+}
 
+li { /* container for each checkbox */
+  border: 1pt black solid;
+  display: inline;
+  width: 100px;
+  height: 100px;
+
+}
+
+input { /*checkbox*/
+  display: none;
+  width: 100px;
+  height: 100px;
+}
+
+.card { actual box
+  display: inline;
+  transition: background 1s, -webkit-transform 1s;
+  width: 100px;
+  height: 100px;
+  background: white;
+}
 
 
 
