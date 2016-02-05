@@ -96,10 +96,14 @@ textarea {
    ========================================================================== */
 html { /*entire page*/
   font-size: 1em;
-  background-color: gray;
+  background-color: #1d9d74;
+  color: white;
 }
 
 /***************** HEADER **********************/
+header {
+  width: 90%;
+}
 
 h1 {
   font-family: 'Orbitron', sans-serif;
@@ -117,36 +121,50 @@ p.time{ /*timer on the right side*/
 
 /************** ACTUAL GAME BELOW *************/
 
-ul.row-one { /* container for first row of boxes*/
-  /*width: 100%;*/
+section.row-one { /* container for first row of boxes*/
+  width: 90%;
+  margin: 0% 5% 0% 5%;
 }
 
-li { /* container for each checkbox */
-  border: 1pt black solid;
-  display: inline;
-  width: 100px;
-  height: 100px;
-
+section.row-two {
+  width: 90%;
+  margin: 0% 5% 0% 5%;
 }
 
-input { /*checkbox*/
-  display: none;
-  width: 100px;
-  height: 100px;
+section.row-three {
+  width: 90%;
+  margin: 0% 5% 0% 5%;
 }
 
-.card { actual box
-  display: inline;
+div {
+  display: inline-block;
+  margin: 1%;
+  border: 1px solid black;
+}
+
+input {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  /*display: none;*/
+}
+
+.card {
   transition: background 1s, -webkit-transform 1s;
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   background: white;
+  display: block;
 }
 
-
-
-
-
+input:checked +.card {
+  -webkit-transform: rotateY(180deg);
+  background: cornflowerblue;
+}
+/*
+input:not(:checked) +.card {
+  background: white;
+}*/
 
 
 
