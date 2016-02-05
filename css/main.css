@@ -103,6 +103,7 @@ html { /*entire page*/
 /***************** HEADER **********************/
 header {
   width: 90%;
+  margin-left: 5%;
 }
 
 h1 {
@@ -123,17 +124,17 @@ p.time{ /*timer on the right side*/
 
 section.row-one { /* container for first row of boxes*/
   width: 90%;
-  margin: 0% 5% 0% 5%;
+  margin: 0% 5% 0% 10%;
 }
 
 section.row-two {
   width: 90%;
-  margin: 0% 5% 0% 5%;
+  margin: 0% 5% 0% 10%;
 }
 
 section.row-three {
   width: 90%;
-  margin: 0% 5% 0% 5%;
+  margin: 0% 5% 0% 10%;
 }
 
 div {
@@ -150,17 +151,27 @@ input {
 }
 
 .card {
-  transition: background 1s, -webkit-transform 1s;
   width: 150px;
   height: 150px;
   background: white;
   display: block;
+  transition: background 1s, -webkit-transform 1s;
+
 }
 
 input:checked +.card {
   -webkit-transform: rotateY(180deg);
-  background: cornflowerblue;
+  background: #1d9d74;
 }
+
+label{
+  text-align: center;
+}
+
+i {
+  padding-top:40px;
+}
+
 /*
 input:not(:checked) +.card {
   background: white;
