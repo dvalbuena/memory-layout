@@ -118,8 +118,10 @@ h2 {
 }
 
 ul.choose-level {
-  margin: 0%;
+  width: 100%;
   padding-left: 0%;
+  margin-top: 5%;
+  margin-left: 2%;
   font-family: arial;
   text-transform: uppercase;
 }
@@ -129,6 +131,7 @@ li {
   margin: 1% 40% 0% 40%;
   text-align: center;
   border: 2px solid white;
+  padding: 10px 50px;
 }
 
 a {
@@ -149,11 +152,15 @@ li:hover{
 li.easy{
   border: 2px solid white;
   width: 100px;
+  transform: skewY(-15deg);
+
 }
 
 li.hard{
   border: 2px solid white;
   width: 100px;
+  transform: skewY(-15deg);
+
 }
 
 

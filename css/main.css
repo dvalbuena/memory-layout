@@ -122,17 +122,7 @@ p.time{ /*timer on the right side*/
 
 /************** ACTUAL GAME BELOW *************/
 
-section.row-one { /* container for first row of boxes*/
-  width: 90%;
-  margin: 0% 5% 0% 10%;
-}
-
-section.row-two {
-  width: 90%;
-  margin: 0% 5% 0% 10%;
-}
-
-section.row-three {
+section { /* rows */
   width: 90%;
   margin: 0% 5% 0% 10%;
 }
