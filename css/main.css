@@ -147,7 +147,7 @@ input {
   position: absolute;
   width: 150px;
   height: 150px;
-  /*display: none;*/
+  opacity: 0;
 }
 
 .card {
@@ -164,6 +164,10 @@ input:checked +.card {
   background: #1d9d74;
 }
 
+input:not(:checked) +.card {
+  background: white;
+}
+
 label{
   text-align: center;
 }
@@ -172,10 +176,6 @@ i {
   padding-top:40px;
 }
 
-/*
-input:not(:checked) +.card {
-  background: white;
-}*/
 
 
 
