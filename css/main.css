@@ -133,17 +133,10 @@ div {
   border: 2px solid white;
 }
 
-input {
-  position: absolute;
-  width: 150px;
-  height: 150px;
-  opacity: 0;
-}
-
 .card {
   width: 150px;
   height: 150px;
-  background: white;
+  background: gray;
   display: block;
   transition: background 1s, -webkit-transform 1s;
 
