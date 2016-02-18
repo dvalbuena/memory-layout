@@ -142,10 +142,10 @@ div {
 
 }
 
-input:checked +.card {
+/*input:checked +.card {
   -webkit-transform: rotateY(180deg);
   background: #1d9d74;
-}
+}*/
 
 /*input:(not):checked +.card {
   -webkit-transform: rotateY(180deg);
