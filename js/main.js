@@ -11,7 +11,7 @@ $(function () {
 //   });
 // });
 
-// $(function(){
+$(function(flip){
 
   $('#fort-one').on('click', function(){
     $(this).css({
@@ -194,8 +194,14 @@ $(function () {
     });
   });
 
+});
 
-
+// pseudocode
+// interate through the flip function
+// if flip happens twice && class === class
+// keep open
+// else flip happens twice && !=== class
+// close
 
 
 });
