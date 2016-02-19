@@ -130,27 +130,14 @@ section { /* rows */
 div {
   display: inline-block;
   margin: 1%;
-  border: 2px solid white;
 }
 
 .card {
   width: 150px;
   height: 150px;
-  background: gray;
-  display: block;
-  transition: background 1s, -webkit-transform 1s;
-
-}
-
-/*input:checked +.card {
-  -webkit-transform: rotateY(180deg);
-  background: #1d9d74;
-}*/
-
-/*input:(not):checked +.card {
-  -webkit-transform: rotateY(180deg);
   background: white;
-}*/
+  display: block;
+}
 
 label{
   text-align: center;
